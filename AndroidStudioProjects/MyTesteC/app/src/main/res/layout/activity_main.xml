@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/back_app"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imc"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/cardview_default_elevation"/>
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:text="@string/imc"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_700"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/sbtitleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculadora"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:hint="@string/peso_ex_65kg"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        android:paddingHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/alturaEDT"
+        style="@style/input_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/altura_ex_1_76m"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        android:paddingHorizontal="10dp"/>
+
+    <Button
+        android:id="@+id/calcularBTN"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/calcular"
+        android:padding="20sp"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

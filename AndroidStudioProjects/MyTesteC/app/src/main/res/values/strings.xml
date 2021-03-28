@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyTesteC</string>
+    <string name="result">result</string>
+    <string name="calcular">calcular</string>
+    <string name="altura_ex_1_76m">Altura(ex.1.76m)</string>
+    <string name="peso_ex_65kg">Peso(ex. 65kg)</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="imc">imc</string>
+</resources>
